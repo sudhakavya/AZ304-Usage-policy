@@ -1,0 +1,18 @@
+{
+      "ResourceType": "Microsoft.Compute/virtualMachines",
+      "Parameter": [
+        {
+          "Name": "max-cpu-cores",
+          "Value": "2"
+        }
+      ]
+    },
+	{
+      "ResourceType": "Microsoft.Sql/servers/",
+      "Parameter": [
+        {
+          "Name": "max-cpu-cores",
+          "Value": "1"
+        }
+      ]
+    }
